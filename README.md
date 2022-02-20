@@ -1,0 +1,1 @@
+This is a practice project to create a hand detector for my webcam. It uses a Convolutional Neural Network with transfer learning.
