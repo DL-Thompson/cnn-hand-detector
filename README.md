@@ -1,5 +1,6 @@
 This is a practice project to create a hand detector for my webcam. It uses a Convolutional Neural Network with transfer learning.
 
-To make the data set more manageable to store on Github, the images in the data/original directory have been compressed. To decompress, simply run the untar_data.sh script in the data/original directory. It will uncompress and then delete the tar files. 
+To build this project I used JupyterLab. The dockerfile is included, it just needs to be built. After the docker container is built, you can run the container and lab using the run docker bash file. There is one for GPU and no GPU.
 
-Also, the image files in the model/final/data directory have been compressed in the same way. The image files in the model/final/data directory are the same as the data/original directory. They are simply coppied there to a single train directory to make running the notebook easier. They must be decompressed for the notebook to run. The final_model.ipynb will run without the files from data/original decompressed.
+To make the data set more manageable to store on Github, the images in the data/original directory and models/final/data have been compressed. To decompress, simply run the untar_data.sh script in the top directory. It will uncompress and then delete the tar files. 
+
