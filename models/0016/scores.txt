@@ -1,0 +1,24 @@
+----------Model Data----------
+Positive Samples: 35398
+Negative Samples: 10600
+Batch Size: 32
+Learning Rate: 5e-05
+Total Epochs: 76
+Patience: 20
+ES Monitor: val_bounding_output_iou__metric
+Best Epoch: 56
+Best History IOU Training: 0.7488099336624146
+Best History IOU Validation: 0.6376716494560242
+Final Training IOU: 0.8389637470245361
+Final Validation IOU: 0.634175717830658
+Final Testing IOU: 0.6411762237548828
+Layers:
+ Dense: 1024 Activation: relu
+ Dropout: 0.1
+ Dense: 512 Activation: relu
+ Dropout: 0.1
+ Dense: 256 Activation: relu
+ Dropout: 0.1
+ Dense: 1 Activation: sigmoid
+ Dense: 4 Activation: sigmoid
+------------------------------
