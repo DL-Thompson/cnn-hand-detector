@@ -1,0 +1,9 @@
+Data:
+786 positive examples from /first_positive
+155 negative examples from /first_negative
+275 positive examples from /second_positive
+22 negative examples from /second_negative
+1638 positive examples from /third_positive
+123 negative examples from /third_negative
+
+Total: 2999
